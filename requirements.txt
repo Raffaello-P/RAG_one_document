@@ -1,0 +1,14 @@
+langchain
+psycopg2
+pgvector
+langchain[pypdf]
+pyyaml
+requests
+python-dotenv
+nltk
+tiktoken
+rich
+tenacity
+PyPDF2
+langchain-community
+pypdf
