@@ -8,7 +8,7 @@ Un semplice strumento per interrogare un LLM tramite Ollama.
 ## Come usare
 1. Installa le dipendenze: `pip install -r requirements.txt`
 2. Inserisci il documento tecnico nella cartella "documents"
-3. Configura i parametri in `config/config.json`.
+3. Configura i parametri in `config/config.json`. In questo file è possibile anche configurare/cambiare modello.
 4. Nel main è presente una variabile "pdf_path" in cui bisogna inserire il nome del documento (è presente il commento: inserire nome del documento).
 5. Avvia lo script: `python -m src.main`.
 
