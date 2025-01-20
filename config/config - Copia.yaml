@@ -1,0 +1,22 @@
+llm:
+  model_name: "gemma2:2b"                           # Modello selezionato
+  api_url: "http://localhost:11434/api/generate"    # URL dell'API Gemma2
+  api_key: "your_api_key_here"                      # Chiave API per autenticazione
+  max_tokens: 200                                   # Numero massimo di token per richiesta
+  temperature: 0.7                                  # Parametro di temperatura per la generazione del modello
+
+paths:
+  documents_dir: "../documents"                     # Percorso della cartella dei PDF
+  # output_dir: "../output"                           # Percorso per i file generati (opzionale)
+
+prompt: |
+  Sei un esperto informatico e Project Manager. Usa il seguente contesto (context) per rispondere alla query
+  Context: {context}
+
+  Query: {query}
+
+  Fornisci una risposta precisa di massimo 5 frasi. 
+
+  Answer:
+
+
