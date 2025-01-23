@@ -1,5 +1,5 @@
-# RAG_one_document
-Demo di un sistema RAG in grado di fornire risposte riguardanti un determinato documento. Demo per caso d'uso in cui un PM ha bisogno di reperire informazioni riguardanti il progetto basandosi sulla documentazione tecnica.
+# ContextLLM
+In questa demo viene mostrato come implementare un sistema che permette di fornire in input un documento di medie dimensioni in modo tale da sottoporlo come contesto ad un LLM per poter rispondere a delle user query.
 
 # LLM Query Tool
 
